@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
-  return;
+  return <div className="my-16 text-center text-2xl">Admin Dashboard</div>;
 }

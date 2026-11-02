@@ -13,8 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
-        <Hero />
-        {children}
+        <main className="min-h-screen max-w-230 mx-auto mt-16">{children}</main>
         <Footer />
       </body>
     </html>
